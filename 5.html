@@ -6,21 +6,55 @@
     </head>    
     
     <body>
-        <h1><a href="index.html">單純無識</h1></a>
-        <img src="music.jpg" width="30%">
-        <ul>
-            <p style="margin-top:40px;">
+        <style>
+           a {
+                color:gray;
+                text-decoration: none;
+            }
+            li {color:rgb(225, 197, 207);}
+            .saw {color:rosybrown;}
+            h1 {
+                font-size: 55px;
+                text-align:center;
+                border-bottom: 3px solid gray;
+                margin: 0px;
+                padding: 30px;
+            }
+            .titled {color:rgb(99, 94, 94);}
+        </style>
+        <h1><a href="index.html" class="titled">單純無識</h1></a>
+        <p style="margin-top:50px;">
+        <div style="text-align: center;"><p align="center">
+        </p>    
+            <p style="margin-top:50px;">
             <li><a href="2.html"> 봄 </a></li>
             <li><a href="3.html"> 여름 </a></li>
             <li><a href="4.html"> 가을 </a></li>
-            <li><a href="5.html"> 겨울 </a></li>
-        </ul>
-
-        <h3>겨울</h3>
-        <p>
+            <li><a href="5.html" class="saw"> 겨울 </a></li>
+        <p style="margin-top:50px;">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/-2VGhPOn498?si=1t7CBsGtt1utHV-t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </p>
-
+        <p style="margin-top:50px;">
+        <div id="disqus_thread"></div>
+        <script>
+            /**
+            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+            /*
+            var disqus_config = function () {
+            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+            */
+            (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://simple-music.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </p>
     </body>
     
     </p>
